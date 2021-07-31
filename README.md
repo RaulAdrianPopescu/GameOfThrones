@@ -2,8 +2,8 @@
 Small project in which we take a random string of characters, verify if it could be a palindrome and then arrange it into one.
 
 
-///////////////////////////////////////////////////////////// DESCRIPTION (RO) \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
+///////////////////////////////////////////////////////////// DESCRIPTION (RO) \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+									       
 Dothraki plănuiesc să usurpe tronul Regelui Robert. 
 Regele Robert aude de această conspirație de la un raven și plănuiește să încuie singura ușă prin care inamicul poate să 
 pătrundă în regat lui.
