@@ -2,8 +2,16 @@
 
 std::string TakeUserString() // Functia ne returneaza input-ul de la user
 {
+	system("cls");
 	std::string userInput;
-	std::cout << "\nTe rog, introdu sirul de caractere: "; std::cin >> userInput;
+	std::cout << "Te rog, introdu sirul de caractere (sirul nu poate avea spatii sau cifre): "; std::cin >> userInput;
+
+	for (auto& letter : userInput)
+		if (std::isdigit(letter) || std::isspace(letter))
+			return TakeUserString();
+
+	if (userInput.empty() || (userInput.length() <= 2))
+		return TakeUserString();
 
 	return userInput;
 }
